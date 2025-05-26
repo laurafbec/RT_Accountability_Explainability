@@ -1,0 +1,10 @@
+{
+  "fields": [
+    {
+      "numDimensions": 1536,
+      "path": "log_message_embedding",
+      "similarity": "dotProduct",
+      "type": "vector"
+    }
+  ]
+}

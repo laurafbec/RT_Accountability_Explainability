@@ -1,0 +1,9 @@
+kafka_producer_srv:
+  ros__parameters:
+    rosout: 5
+    behavior_tree_log: 10
+    amcl_pose: 10
+    navigate_to_pose/_action/status: 1
+    scan: 50
+    plan: 5
+    cmd_vel: 15
