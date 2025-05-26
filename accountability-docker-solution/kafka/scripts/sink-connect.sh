@@ -11,7 +11,7 @@ curl -s \
      "connector.class": "com.mongodb.kafka.connect.MongoSinkConnector",
         "tasks.max": "1",
         "topics": "ROSMessagesTopic",
-        "connection.uri":"mongodb+srv://root:admin@cluster0.3b4os1l.mongodb.net",
+        "connection.uri":"mongodb+srv://root:****@cluster0.3b4os1l.mongodb.net",
         "database": "RealTimeRAG",
         "collection": "RealTimeRAG",
         "key.converter": "org.apache.kafka.connect.storage.StringConverter",
