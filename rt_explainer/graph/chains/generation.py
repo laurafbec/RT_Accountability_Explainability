@@ -24,6 +24,7 @@ generate_answer_prompt = PromptTemplate(
 
 #llm = ChatOpenAI(model_name="gpt-3.5-turbo", temperature=0)
 #llm = ChatOpenAI(model_name="gpt-4", temperature=0)
+"""
 llm = ChatDeepSeek(
     model="deepseek-chat",
     temperature=0,
@@ -31,6 +32,7 @@ llm = ChatDeepSeek(
     timeout=None,
     max_retries=4
 )
+"""
 """
 llm = ChatDeepSeek(
     model="deepseek-reasoner",
