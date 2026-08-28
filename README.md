@@ -153,4 +153,20 @@ Verdict 15: 1
 ...
 
 ```
+## Citation
 
+If you use this software or the associated architecture in your research, please cite:
+
+```bibtex
+@article{FERNANDEZBECERRA2026132631,
+  title = {Generating trustworthy and context-aware explanations for autonomous robots using an LLM agent-based RAG architecture},
+  journal = {Expert Systems with Applications},
+  volume = {325},
+  pages = {132631},
+  year = {2026},
+  issn = {0957-4174},
+  doi = {10.1016/j.eswa.2026.132631},
+  url = {https://www.sciencedirect.com/science/article/pii/S0957417426015447},
+  author = {Laura Fernández-Becerra and Angel {Manuel Guerrero-Higueras} and Francisco {Javier Rodríguez-Lera} and Vicente {Matellán Olivera}},
+  keywords = {Explainable AI, Robotics, LLM agents, Agentic retrieval-augmented generation, Explainability evaluation, Generative AI}
+}
