@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+title: "Accountability-Explainability Architecture with LLM Agents"
+type: software
+authors:
+  - family-names: "Fernández-Becerra"
+    given-names: "Laura"
+  - family-names: "Guerrero-Higueras"
+    given-names: "Angel Manuel"
+  - family-names: "Rodríguez-Lera"
+    given-names: "Francisco Javier"
+  - family-names: "Matellán Olivera"
+    given-names: "Vicente"
+
+repository-code: "https://github.com/laurafbec/RT_Accountability_Explainability"
+
+preferred-citation:
+  type: article
+  title: "Generating trustworthy and context-aware explanations for autonomous robots using an LLM agent-based RAG architecture"
+  authors:
+    - family-names: "Fernández-Becerra"
+      given-names: "Laura"
+    - family-names: "Guerrero-Higueras"
+      given-names: "Angel Manuel"
+    - family-names: "Rodríguez-Lera"
+      given-names: "Francisco Javier"
+    - family-names: "Matellán Olivera"
+      given-names: "Vicente"
+  journal: "Expert Systems with Applications"
+  volume: 325
+  year: 2026
+  start: 132631
+  doi: "10.1016/j.eswa.2026.132631"
