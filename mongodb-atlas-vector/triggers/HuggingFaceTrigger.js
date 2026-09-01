@@ -8,7 +8,7 @@ exports = async function(changeEvent) {
     try {
         console.log(`Processing document with id: ${doc._id}`);
 
-        // Call HugginFace API to get the embeddings.
+        // Call Hugging Face API to get the embeddings.
         let response = await context.http.post({
             url: url,
             headers: {
