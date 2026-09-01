@@ -17,7 +17,7 @@ exports = async function(changeEvent) {
                 'Content-Type': ['application/json']
             },
             body: JSON.stringify({
-                // The field inside your document that contains the data to embed, here it is the "plot" field from the sample movie data.
+                // Generate an embedding from the ROS message in log_message field
                 input: doc.log_message,
                 model: "text-embedding-ada-002"
             })
