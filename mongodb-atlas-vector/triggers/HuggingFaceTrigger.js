@@ -1,7 +1,7 @@
 exports = async function(changeEvent) {
     // Get the full document from the change event.
     const doc = changeEvent.fullDocument;
-    // Define the HugginFace API url and key.
+    // Define the Hugging Face API url and key.
     const url = 'https://api-inference.huggingface.co/models/intfloat/multilingual-e5-large';
     // Use the name you gave the value of your API key in the "Values" utility inside of App Services
     const hf_key = context.values.get("HUGGINGFACE_VALUE");
